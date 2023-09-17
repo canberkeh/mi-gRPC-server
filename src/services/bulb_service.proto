@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package bulb;
+
+service BulbService {
+    rpc GetProperties (Empty) returns (BulbProperties);
+}
+
+message Empty {}
+
+message BulbProperties {
+    string name = 1;
+    string power = 2;
+    string brightness = 3;
+}

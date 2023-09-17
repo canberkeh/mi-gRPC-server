@@ -1,0 +1,4 @@
+yeelight==0.7.13
+grpcio==1.58.0
+grpcio-tools==1.58.0
+# flask==1.1.2
